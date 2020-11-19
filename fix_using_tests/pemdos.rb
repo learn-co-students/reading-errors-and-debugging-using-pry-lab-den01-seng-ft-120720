@@ -1,9 +1,10 @@
-# don't forget to add: require 'pry'
-
 def snake_it_up(string)
   if string[0] == "s"
-    10 * "s" + string
-  else
-    string
+    string.insert(0,"ssssssssss")
+  p string
+  elsif
+   puts string
   end
 end
+
+snake_it_up "suprise"
